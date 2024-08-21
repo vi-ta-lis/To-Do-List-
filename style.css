@@ -16,6 +16,7 @@ html, body {
     vertical-align: middle;
 }
 
+
 #addToDo {
     height: 50px;
     width: 50px;
@@ -26,11 +27,22 @@ html, body {
 }
 
 .to-dos {
-    margin-top: 20px
+    margin-top: 20px;
+    height: 40px;
+    background-color: purple;
 }
 
 .paragraph-styling{
     margin: 0;
     cursor: pointer;
     font-size: 20px;
+}
+
+.main-container {
+    background-color: gray;
+    width: 380px;
+    height: 500px;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius:10px;
 }

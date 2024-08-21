@@ -13,10 +13,14 @@ var paragraph = document.createElement('p')
 
 
     paragraph.addEventListener('click', function() {
-    paragraph.style.textDecoration = 'line-through';
+    paragraph.style.textDecoration = 'line-through'; 
 
     paragraph.addEventListener('dblclick', function () {
     paragraph.style.display = 'none';
+
+    // paragraph.addEventListener('click', function () {
+    //     paragraph.style.textDecoration = 'none';
+    // })
 
     })
 })})
