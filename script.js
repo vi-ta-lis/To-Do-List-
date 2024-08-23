@@ -17,12 +17,14 @@ var paragraph = document.createElement('p')
 
     paragraph.addEventListener('dblclick', function () {
     paragraph.style.display = 'none';
-
-    // paragraph.addEventListener('click', function () {
-    //     paragraph.style.textDecoration = 'none';
-    // })
-
     })
 })})
 
+
+// function handleKeyDown(event) {
+//     if (event.key === 'Enter') {
+//         event.paragraph();
+//     }
+
+// }
 

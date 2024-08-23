@@ -1,6 +1,6 @@
 html, body {
-    width: 50%;
-    margin: 0 auto;
+    /* width: 50%; */
+    /* margin: 0 auto; */
 }
 
 .container {
@@ -10,39 +10,76 @@ html, body {
 #inputField {
     width: 300px;
     height: 46px;
-    border: 1px solid black;
     outline: none;
-    font-size: 25px;
+    font-size: 18px;
     vertical-align: middle;
 }
 
+.input-field::placeholder {
+    font-size: 18px;
+}
 
 #addToDo {
     height: 50px;
     width: 50px;
-    border: 1px solid black;
     vertical-align: middle;
+    border: none;
+    border-radius: 25px;
     font-size: 30px;
     font-weight: bold;
+}
+
+.add-todo:hover {
+    background-color: cadetblue;
+    transition: 0.2s;
+}
+
+.add-todo img {
+ height: 40px;
+
+
+}
+
+
+.add-todo:active {
+    background-color: black;
 }
 
 .to-dos {
     margin-top: 20px;
     height: 40px;
-    background-color: purple;
 }
 
 .paragraph-styling{
-    margin: 0;
+    margin: 5px;
     cursor: pointer;
     font-size: 20px;
+    background-color: purple;
 }
 
 .main-container {
     background-color: gray;
-    width: 380px;
     height: 500px;
     padding: 10px;
     margin-top: 10px;
     border-radius:10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(img/pexels-breakingpic-3243.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
+
+h1 {
+font-family:cursive;
+font-weight: 600;
+
+}
+
+
+.input-field {
+    border-width: 0px;
+}
+
