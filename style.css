@@ -15,6 +15,10 @@ html, body {
     vertical-align: middle;
 }
 
+.input-field {
+    border-radius: 7px;
+}
+
 .input-field::placeholder {
     font-size: 18px;
 }
@@ -35,11 +39,9 @@ html, body {
 }
 
 .add-todo img {
- height: 40px;
-
+    height: 40px;
 
 }
-
 
 .add-todo:active {
     background-color: black;
@@ -54,7 +56,10 @@ html, body {
     margin: 5px;
     cursor: pointer;
     font-size: 20px;
-    background-color: purple;
+    background: linear-gradient(to bottom, #ffffff,
+        #e0e0e0 ) ;
+    width: 290px;
+    height: 50px;
 }
 
 .main-container {
