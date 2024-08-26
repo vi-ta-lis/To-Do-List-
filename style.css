@@ -16,7 +16,7 @@ html, body {
 }
 
 .input-field {
-    border-radius: 7px;
+    border-radius: 5px;
 }
 
 .input-field::placeholder {
@@ -58,13 +58,13 @@ html, body {
     font-size: 20px;
     background: linear-gradient(to bottom, #ffffff,
         #e0e0e0 ) ;
-    width: 290px;
-    height: 50px;
+    width: 296px;
+    height: 40px;
 }
 
 .main-container {
-    background-color: gray;
-    height: 500px;
+    background-color: bisque;
+   height: 500px;
     padding: 10px;
     margin-top: 10px;
     border-radius:10px;
@@ -83,8 +83,15 @@ font-weight: 600;
 
 }
 
-
 .input-field {
     border-width: 0px;
 }
 
+@media (max-width:500px) {
+    .main-container {
+        display: flex;
+        flex-direction: column;
+        background-image: none;
+    }
+    
+}

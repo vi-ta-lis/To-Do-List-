@@ -11,7 +11,6 @@ var paragraph = document.createElement('p')
     toDoContainer.appendChild(paragraph);
     inputField.value = "";
 
-
     paragraph.addEventListener('click', function() {
     paragraph.style.textDecoration = 'line-through'; 
 
@@ -21,10 +20,5 @@ var paragraph = document.createElement('p')
 })})
 
 
-// function handleKeyDown(event) {
-//     if (event.key === 'Enter') {
-//         event.paragraph();
-//     }
-
-// }
+//later add a feature so if you press enter key the paragraph enters after revising javascript
 
