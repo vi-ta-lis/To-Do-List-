@@ -9,7 +9,7 @@ html, body {
 
 .input-field {
     border-radius: 5px;
-    width: fit-content;
+    width: 300px;
     height: 46px;
     outline: none;
     font-size: 18px;
@@ -22,7 +22,7 @@ html, body {
 
 #addToDo {
     height: 50px;
-    width: 50px;
+    width: auto;
     vertical-align: middle;
     border: none;
     border-radius: 25px;
@@ -36,7 +36,7 @@ html, body {
 }
 
 .add-todo img {
-    height: 40px;
+    /* height: 40px; */
 
 }
 
