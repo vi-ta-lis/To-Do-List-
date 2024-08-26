@@ -7,18 +7,15 @@ html, body {
     width: 360px;
 }
 
-#inputField {
-    width: 300px;
+.input-field {
+    border-radius: 5px;
+    width: fit-content;
     height: 46px;
     outline: none;
     font-size: 18px;
     vertical-align: middle;
+    
 }
-
-.input-field {
-    border-radius: 5px;
-}
-
 .input-field::placeholder {
     font-size: 18px;
 }
